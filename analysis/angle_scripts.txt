@@ -1,0 +1,199 @@
+# scripts to run the code to obtain angles, run in pymol
+
+##############################################################################
+# SARS CoV 2 SL5
+##############################################################################
+
+pymol ../models/auto-drrafter_erraser/SARS-CoV-2/icSHAPE/*pdb 
+
+color grey, resid 159-182 or resid 263-282
+color blue, resid 183-227
+color orange, resid 228-252
+color red, resid 253-262
+
+select res1, resid 183-252 # a-b
+select res2, resid 159-182 or resid 253-282 # stem-c
+select ref2, (resid 182 or resid 253) and backbone # stem side
+select ref1, (resid 183 or resid 252) and backbone 
+select end2a, resid 159-164 or resid 277-282 # stem
+select end2b, resid 256-259 # c
+select end1a, resid 238-243 # b 
+select end1b, resid 200-205 # a
+
+run get_all_angles.py
+
+##############################################################################
+# SARS CoV 2 SL5 CASP - R1149
+##############################################################################
+
+pymol ../models/CASP/R1149/*pdb
+
+color grey, resid 1-24 or resid 105-124
+color blue, resid 25-69
+color orange, resid 70-94
+color red, resid 95-104
+
+select res1, resid 25-94 # a-b
+select res2, resid 1-24 or resid 95-124 # stem-c
+select ref2, (resid 24 or resid 95) and backbone # stem side
+select ref1, (resid 25 or resid 94) and backbone 
+select end2a, resid 1-6 or resid 119-124 # stem
+select end2b, resid 98-101 # c
+select end1a, resid 80-85 # b 
+select end1b, resid 42-47 # a
+
+run get_all_angles.py
+
+##############################################################################
+# SARS CoV 1 SL5
+##############################################################################
+
+pymol ../models/auto-drrafter_erraser/SARS-CoV-1/*/*pdb 
+
+color grey, resid 150-181 or resid 262-292
+color blue, resid 182-226
+color orange, resid 227-251
+color red, resid 252-261
+
+select res1, resid 182-251 # a-b
+select res2, resid 158-181 or resid 252-281 # stem-c
+select ref2, (resid 181 or resid 252) and backbone # stem side
+select ref1, (resid 182 or resid 251) and backbone 
+select end2a, resid 158-163 or resid 276-281 # stem
+select end2b, resid 255-258 # c
+select end1a, resid 237-242 # b 
+select end1b, resid 199-204 # a
+
+run get_all_angles.py
+
+##############################################################################
+# MERS SL5
+##############################################################################
+
+pymol ../models/auto-drrafter_erraser/MERS/conf1/*/*.pdb
+pymol ../models/auto-drrafter_erraser/MERS/conf2/*/*.pdb
+pymol ../models/auto-drrafter_erraser/MERS/conf3/*/*.pdb
+
+color grey, resid 205-227 or resid 321-339
+color blue, resid 228-272
+color orange, resid 273-299
+color red, resid 300-320
+
+# a only to junction
+select res1, resid 228-231 or resid 264-299 # a-b
+select res2, resid 205-227 or resid 300-339 # stem-c
+select ref2, (resid 227 or resid 300) and backbone # stem side
+select ref1, (resid 228 or resid 299) and backbone 
+select end2a, resid 205-210 or resid 231-339 # stem
+select end2b, resid 307-313 # c
+select end1a, resid 287-292 # b 
+select end1b, resid 231 or resid 264-268 # a
+
+run get_all_angles.py
+
+select res1, resid 228-231 or resid 264-299 # a-b to internal loop
+select res2, resid 232-263 # a-b from internal loop change
+select ref1, (resid 227 or resid 300) and backbone # stem side
+select ref2, (resid 228 or resid 299) and backbone 
+select end1b, resid 213 or resid 246-250 # internal loop
+select end2b, resid 246-251 # a
+select end1a, resid 287-292 # b 
+select end1b, resid 213 or resid 246-250 # internal loop
+
+run get_all_angles.py
+
+##############################################################################
+# BtCoV-HKU5 SL5
+##############################################################################
+
+pymol ../models/auto-drrafter_erraser/BtCoV-HKU5/conf1/{icSHAPE,libraryDMS,librarySHAPE}/*.pdb
+pymol ../models/auto-drrafter_erraser/BtCoV-HKU5/conf2/{icSHAPE,libraryDMS,librarySHAPE}/*.pdb
+pymol ../models/auto-drrafter_erraser/BtCoV-HKU5/conf3/{icSHAPE,libraryDMS,librarySHAPE}/*.pdb
+pymol ../models/auto-drrafter_erraser/BtCoV-HKU5/conf4/{icSHAPE,librarySHAPE}/*.pdb
+
+color grey, resid 187-209 or resid 303-321
+color blue, resid 210-254
+color orange, resid 255-281
+color red, resid 282-302
+
+# a only to junction
+select res1, resid 210-213 or resid 246-281 # a-b
+select res2, resid 187-209 or resid 282-321 # stem-c
+select ref2, (resid 209 or resid 282) and backbone # stem side
+select ref1, (resid 210 or resid 281) and backbone 
+select end2a, resid 187-192 or resid 216-321 # stem
+select end2b, resid 289-295 # c
+select end1a, resid 269-274 # b 
+select end1b, resid 213 or resid 246-250 # a
+
+run get_all_angles.py
+
+select res1, resid 210-213 or resid 246-281 # a-b to internal loop
+select res2, resid 214-245 # a-b from internal loop
+select ref1, (resid 209 or resid 282) and backbone # stem side
+select ref2, (resid 210 or resid 281) and backbone 
+select end2a, resid 213 or resid 246-250 # internal loop
+select end2b, resid 228-233 # a
+select end1a, resid 269-274 # b 
+select end1b, resid 213 or resid 246-250 # internal loop
+
+run get_all_angles.py
+
+##############################################################################
+# BtCoV-HKU5 SL5 CASP - R1156
+##############################################################################
+
+pymol ../models/CASP/R1156/*pdb
+
+color grey, resid 1-23 or resid 117-135
+color blue, resid 24-68
+color orange, resid 69-95
+color red, resid 96-116
+
+# a only to junction
+select res1, resid 24-27 or resid 60-95 # a-b
+select res2, resid 1-23 or resid 96-135 # stem-c
+select ref2, (resid 23 or resid 96) and backbone # stem side
+select ref1, (resid 24 or resid 95) and backbone 
+select end2a, resid 1-192 or resid 30-135 # stem
+select end2b, resid 103-109 # c
+select end1a, resid 83-88 # b 
+select end1b, resid 27 or resid 60-64 # a
+
+run get_all_angles.py
+
+select res1, resid 24-27 or resid 60-95 # a-b to internal loop
+select res2, resid 28-59 # a-b from internal loop
+select ref1, (resid 23 or resid 96) and backbone # stem side
+select ref2, (resid 24 or resid 95) and backbone 
+select end2a, resid 27 or resid 60-64 # internal loop
+select end2b, resid 42-47 # a
+select end1a, resid 83-88 # b 
+select end1b, resid 27 or resid 60-64 # internal loop
+
+run get_all_angles.py
+
+##############################################################################
+# HCoV-229E
+##############################################################################
+
+pymol ../models/auto-drrafter_erraser/HCoV-229E/manual/*.pdb
+
+color grey, resid 153-167 or resid 280-292
+color blue, resid 168-221
+color orange, resid 222-248
+color red, resid 250-279
+color black, resid 249
+
+select res1, resid 168-248 # a-b
+select res2, resid 153-167 or resid 250-292 # stem-c
+select ref2, (resid 167 or resid 250) and backbone # stem side
+select ref1, (resid 168 or resid 248) and backbone 
+select end2a, resid 153-158 or resid 287-292 # stem
+select end2b, resid 262-267 # c
+select end1a, resid 233-238 # b 
+select end1b, resid 192-197 # a
+
+run get_all_angles.py
+
+# nl63 --> can only estimate based on map

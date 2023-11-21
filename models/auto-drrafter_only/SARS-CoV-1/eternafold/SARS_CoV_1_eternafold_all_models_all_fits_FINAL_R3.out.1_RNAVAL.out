@@ -1,0 +1,48 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  residue               atom 1  atom 2  sigmas
+   A 168    A              O3'     P      6.44
+  1/1997 bond outliers present
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A 168    A              O3'     P       O5'   -6.65
+  1/3137 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 168    A               79.1        no     345.2       yes
+   A 217    C               81.4        no      22.1       yes
+   A 239    U               81.2        no     149.7       yes
+   A 251    G               80.9        no     109.3       yes
+  4/142 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     A A 160                  !!      0.000      None
+     A A 169                  !!      0.000  epsilon-1
+     U A 174                  !!      0.000      None
+     C A 182                  !!      0.000     gamma
+     C A 185                  !!      0.000     gamma
+     A A 186                  !!      0.000     gamma
+     U A 193                  !!      0.000     gamma
+     C A 202                  !!      0.000      None
+     G A 203                  !!      0.000     gamma
+     G A 218                  !!      0.000  epsilon-1
+     A A 219                  !!      0.000      None
+     U A 220                  !!      0.000      None
+     A A 222                  !!      0.000     gamma
+     A A 234                  !!      0.000     alpha
+     G A 235                  !!      0.000      None
+     C A 240                  !!      0.000  epsilon-1
+     A A 252                  !!      0.000  epsilon-1
+     A A 262                  !!      0.000     gamma
+     U A 285                  !!      0.000      None
+     G A 286                  !!      0.000      None
+  12 suites triaged and 0 incomplete leaving 131 suites
+  20/143 suite outliers present
+  Average suiteness: 0.763

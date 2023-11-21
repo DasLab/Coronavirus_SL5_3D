@@ -1,0 +1,192 @@
+# Fig 3
+
+close all
+
+open ../maps/MERS_con1-6p89-cryosparc_P1_J318_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf1/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.*.pdbFINISHED_1.pdb
+
+open ../maps/MERS_con2-6p37-cryosparc_P1_J320_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf2/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.*.pdbFINISHED_1.pdb
+
+open ../maps/MERS_con3-6p44-cryosparc_P1_J323_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf3/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.*.pdbFINISHED_1.pdb
+
+open ../maps/BtCoV_HKU5_con1-5p93-cryosparc_P2_J362_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf1/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R3.out.*.pdbFINISHED_1.pdb
+
+open ../maps/BtCoV_HKU5_con2-6p42-cryosparc_P2_J365_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf2/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R3.out.*.pdbFINISHED_1.pdb
+
+open ../maps/BtCoV_HKU5_con3-8p00-cryosparc_P2_J368_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf3/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R6.out.*.pdbFINISHED_1.pdb
+
+open ../maps/BtCoV_HKU5_con4-7p29-cryosparc_P2_J371_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf4/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R7.out.*.pdbFINISHED_1.pdb
+
+open ../maps/SARS_CoV_2-4p74-cryosparc_P1_J842_map_sharp.mrc
+open ../models/auto-drrafter_erraser/SARS-CoV-2/m2seq_librarySHAPE_eternafold/SARS_CoV_2-SL5_m2seq_librarySHAPE_eternafold_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+open ../maps/SARS_CoV_1-7p05-cryosparc_P18_J109_map_sharp.mrc
+open ../models/auto-drrafter_erraser/SARS-CoV-1/icSHAPE/SARS_CoV_1_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+set bgColor white
+# lighting shadows false
+# lighting soft
+lighting full
+graphics silhouettes true
+
+
+# color BtCoV-HKU5
+color #35-44,46-55,57-66,68-77:187-209,303-321 #000000
+color #35-44,46-55,57-66,68-77:210-254 #0000FF
+color #35-44,46-55,57-66,68-77:255-281 #ff7f00
+color #35-44,46-55,57-66,68-77:282-302 #FF0000
+vol #34,45,56,67 step 1 sdlevel 6 transparency 0.3
+color zone #34 near #35 distance 8
+color zone #45 near #46 distance 8
+color zone #56 near #57 distance 8
+color zone #67 near #68 distance 8
+# vol #34,45,56,67 transparency 0.3
+vol #34,45,56,67 transparency 0
+# may need increase threshold con3 con4
+
+# BtCov top
+view matrix camera 0.38653,-0.90725,0.16582,116.21,0.92226,0.37928,-0.074669,68.285,0.0048515,0.18179,0.98333,284.12
+hide all target m
+show #34 target m
+clip far -7.4921
+
+save mervs/BtCoV-HKU5_1_top.png transparentbackground true pixelSize 0.05
+hide all target m
+show #45 target m
+save mervs/BtCoV-HKU5_2_top.png transparentbackground true pixelSize 0.05
+hide all target m
+show #56 target m
+save mervs/BtCoV-HKU5_3_top.png transparentbackground true pixelSize 0.05
+hide all target m
+show #67 target m
+save mervs/BtCoV-HKU5_4_top.png transparentbackground true pixelSize 0.05
+
+nucleotides #35-77 stubs radius 0.2
+hide #35-77 target a
+show #35-77:246-249,289-295 target a
+
+hide all target m
+show #35-44 target m
+save mervs/BtCoV-HKU5_1_top_models.png transparentbackground true pixelSize 0.05
+hide all target m
+show #46-55 target m
+save mervs/BtCoV-HKU5_2_top_models.png transparentbackground true pixelSize 0.05
+hide all target m
+show #57-66 target m
+save mervs/BtCoV-HKU5_3_top_models.png transparentbackground true pixelSize 0.05
+hide all target m
+show #68-77 target m
+save mervs/BtCoV-HKU5_4_top_models.png transparentbackground true pixelSize 0.05
+
+clip off
+
+
+
+# color MERS
+show #1,12,23 target m
+color #2-11,13-22,24-33:205-227,321-339 #000000
+color #2-11,13-22,24-33:228-271 #0000FF
+color #2-11,13-22,24-33:272-299 #ff7f00
+color #2-11,13-22,24-33:300-320 #FF0000
+vol #1,12,23 step 1 sdlevel 16 transparency 0.3
+color zone #1 near #2 distance 8
+color zone #12 near #13 distance 8
+color zone #23 near #24 distance 8
+# vol #1,12,23 transparency 0.3
+vol #1,12,23 transparency 0
+
+# MERS top
+view matrix camera 0.10056,-0.97138,0.2152,190.29,0.99481,0.094796,-0.036971,140.41,0.015513,0.2178,0.97587,342.97
+hide all target m
+show #1 target m
+clip far -0.7393
+
+save mervs/MERS_1_top.png transparentbackground true pixelSize 0.05
+hide all target m
+show #12 target m
+save mervs/MERS_2_top.png transparentbackground true pixelSize 0.05
+hide all target m
+show #23 target m
+save mervs/MERS_3_top.png transparentbackground true pixelSize 0.05
+
+nucleotides #1-34 stubs radius 0.2
+hide #1-34 target a
+show #1-34:264-268,307-313 target a
+
+hide all target m
+show #2-11 target m
+save mervs/MERS_1_top_models.png transparentbackground true pixelSize 0.05
+hide all target m
+show #13-22 target m
+save mervs/MERS_2_top_models.png transparentbackground true pixelSize 0.05
+hide all target m
+show #24-33 target m
+save mervs/MERS_3_top_models.png transparentbackground true pixelSize 0.05
+
+clip off
+
+show #34-77 target cm
+
+# SARS2
+hide all target m
+show # 78 target m
+color #79:159-182,263-282 #000000
+color #79:183-227 #0000FF
+color #79:228-252 #ff7f00
+color #79:253-262 #FF0000 
+vol #78 step 1 sdlevel 20 transparency 0.3
+surface dust #78 size 9.83
+color zone #78 near #79 distance 8
+# vol #78 transparency 0.3
+vol #78 transparency 0
+view matrix camera -0.015889,-0.99765,-0.066733,135.62,0.9554,0.0045353,-0.29529,93.566,0.29489,-0.068445,0.95307,339.87
+clip far 14.387
+save mervs/SARS2_top.png transparentbackground true pixelSize 0.05
+clip off
+vol #78 transparency 0.3
+view matrix camera -0.054739,0.054873,0.99699,475.03,0.93475,-0.34824,0.070482,181.66,0.35106,0.9358,-0.032229,128.43
+save mervs/SARS2_front.png transparentbackground true pixelSize 0.05
+
+#SARS1
+hide all target m
+show #80 target m
+color #81:150-181,262-292 #000000
+color #81:182-226 #0000FF
+color #81:227-251 #ff7f00
+color #81:252-261 #FF0000
+vol #80 step 1 sdlevel 20 transparency 0.3
+color zone #80 near #81 distance 8
+# vol #80 transparency 0.3
+vol #80 transparency 0
+view matrix camera -0.012315,0.96057,0.27779,214.59,-0.96606,-0.083112,0.24456,213.48,0.25801,-0.26535,0.92899,382.04
+clip far -9.4398
+save mervs/SARS1_top.png transparentbackground true pixelSize 0.05
+clip off
+
+lighting simple
+cartoon style #2-11,13-22,24-33,35-44,46-55,57-66,68-77 width 1
+hide all target ma
+show #2-11,13-22,24-33 target cm
+view matrix camera -0.054773,0.041313,0.99764,376.22,0.99723,0.052569,0.052574,156.66,-0.050273,0.99776,-0.044078,127.49
+save mervs/MERS_models.png transparentbackground true pixelSize 0.05
+hide all target ma
+show #1,12,23 target m
+vol #1,12,23 transparency 0.3
+save mervs/MERS.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #35-44,46-55,57-66,68-77 target cm
+view matrix camera 0.16236,0.10822,0.98078,302.2,0.98606,0.018985,-0.16533,44.556,-0.036512,0.99395,-0.10363,53.749
+save mervs/BtCoV-HKU5_models.png transparentbackground true pixelSize 0.05
+hide all target ma
+show #34,45,56,67 target m
+vol #34,45,56,67 transparency 0.3
+save mervs/BtCoV-HKU5.png transparentbackground true pixelSize 0.05
+
+# for figure 10% for top, 20% for full

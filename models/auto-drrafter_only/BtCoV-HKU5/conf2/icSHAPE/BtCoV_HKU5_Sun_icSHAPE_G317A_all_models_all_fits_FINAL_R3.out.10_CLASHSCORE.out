@@ -1,0 +1,32 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 234    C  C6   A 234    C  OP1 :0.979
+ A 209    U H5''  A 210    C  OP2 :0.881
+ A 262    U  O2'  A 263    G  P   :0.804
+ A 281    G  O2'  A 282    G  O5' :0.779
+ A 262    U  H3'  A 262    U  OP1 :0.713
+ A 224    A  H8   A 224    A  OP1 :0.702
+ A 262    U  O2'  A 263    G  OP2 :0.669
+ A 192    A  N7   A 317    G  N2  :0.661
+ A 234    C  C5   A 234    C  OP1 :0.651
+ A 234    C  H6   A 234    C  OP1 :0.589
+ A 293    U  O2   A 296    G  O4' :0.574
+ A 209    U  H4'  A 210    C  OP1 :0.555
+ A 224    A  C8   A 224    A  OP1 :0.553
+ A 251    G  OP2  A 294    G  O2' :0.533
+ A 249    U  O2'  A 250    C  OP2 :0.531
+ A 220    A  N6   A 240    C  N3  :0.475
+ A 262    U  C3'  A 262    U  OP1 :0.437
+ A 281    G  H4'  A 282    G  OP1 :0.437
+ A 250    C  O4'  A 250    C  P   :0.432
+ A 234    C  H6   A 234    C  P   :0.421
+ A 294    G  H2'  A 295    C  C6  :0.421
+ A 209    U H5''  A 210    C  P   :0.418
+ A 291    G  H2'  A 292    G  C8  :0.403
+ A 220    A  H2'  A 220    A  N3  :0.403
+ A 195    G  H2'  A 196    U  C6  :0.403
+clashscore = 5.78

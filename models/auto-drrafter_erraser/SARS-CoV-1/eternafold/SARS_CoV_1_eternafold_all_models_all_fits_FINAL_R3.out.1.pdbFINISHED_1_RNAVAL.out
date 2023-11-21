@@ -1,0 +1,35 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  All angles within 4.0 sigma of ideal values.
+
+                        ----------Sugar pucker----------                       
+
+  All puckers have reasonable geometry.
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     A A 160                  !!      0.000      None
+     A A 168                  !!      0.000      None
+     C A 182                  !!      0.000      None
+     C A 185                  !!      0.000      None
+     A A 186                  !!      0.000      None
+     G A 187                  !!      0.000      None
+     C A 202                  !!      0.000      None
+     G A 203                  !!      0.000      None
+     U A 204                  !!      0.000      None
+     G A 218                  !!      0.000      None
+     U A 220                  !!      0.000      None
+     C A 221                  !!      0.000      None
+     C A 240                  !!      0.000      None
+     A A 252                  !!      0.000     gamma
+     U A 285                  !!      0.000      None
+     G A 286                  !!      0.000      None
+  1 suites triaged and 0 incomplete leaving 142 suites
+  16/143 suite outliers present
+  Average suiteness: 0.782

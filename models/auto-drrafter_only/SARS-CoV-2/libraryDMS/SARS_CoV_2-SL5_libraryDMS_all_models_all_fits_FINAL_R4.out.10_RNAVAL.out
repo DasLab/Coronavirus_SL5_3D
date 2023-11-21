@@ -1,0 +1,35 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  All angles within 4.0 sigma of ideal values.
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 182    U               79.2       yes      34.7       yes
+   A 220    A               86.3        no      33.9       yes
+   A 252    G               80.9        no      33.3       yes
+  3/123 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     U A 175                  !!      0.000     gamma
+     C A 183                  !!      0.000  epsilon-1
+     U A 211                  !!      0.000     gamma
+     U A 212                  !!      0.000      None
+     U A 221                  !!      0.000  epsilon-1
+     C A 222                  !!      0.000     gamma
+     A A 235                  !!      0.000     gamma
+     U A 239                  !!      0.000      None
+     U A 240                  !!      0.000     gamma
+     G A 242                  !!      0.000     gamma
+     A A 253                  !!      0.000  epsilon-1
+     C A 275                  !!      0.000      None
+  9 suites triaged and 0 incomplete leaving 115 suites
+  12/124 suite outliers present
+  Average suiteness: 0.795

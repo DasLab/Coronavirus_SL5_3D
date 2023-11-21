@@ -1,0 +1,9 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 220    A  O2'  A 223    U  O4  :0.430
+ A 219    A  N1   A 240    C  N4  :0.407
+clashscore = 0.46

@@ -1,0 +1,53 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 262    U  O4'  A 262    U  OP1 :1.191
+ A 230    U  O4'  A 230    U  OP1 :1.093
+ A 221    U  C6   A 221    U  OP1 :0.996
+ A 293    U  C6   A 293    U  OP1 :0.962
+ A 202    A  O2'  A 203    A  OP1 :0.898
+ A 261    A  C2'  A 262    U  OP1 :0.873
+ A 221    U  H3'  A 221    U  OP1 :0.845
+ A 292    G  O2'  A 293    U  P   :0.843
+ A 261    A  O2'  A 262    U  OP1 :0.784
+ A 281    G  O2'  A 282    G  P   :0.724
+ A 221    U  C6   A 221    U  P   :0.707
+ A 270    G  N2   A 270    G  OP2 :0.704
+ A 281    G  O2'  A 282    G  O5' :0.679
+ A 209    U  O2'  A 210    C  OP1 :0.662
+ A 292    G  O2'  A 293    U  OP1 :0.658
+ A 293    U  O4'  A 293    U  OP1 :0.651
+ A 221    U  N1   A 221    U  OP1 :0.650
+ A 293    U  O4'  A 293    U  P   :0.649
+ A 314    A  H8   A 314    A  OP2 :0.648
+ A 251    G  O2'  A 252    G  O5' :0.637
+ A 213    G  O2'  A 214    G  OP1 :0.625
+ A 262    U  O4'  A 262    U  P   :0.613
+ A 261    A  H2'  A 262    U  OP1 :0.597
+ A 272    G  H8   A 272    G  OP2 :0.592
+ A 246    A  O2'  A 247    A  OP1 :0.587
+ A 252    G  H8   A 252    G  OP2 :0.581
+ A 220    A  O2'  A 222    A  N7  :0.572
+ A 196    U  O2'  A 197    G  OP1 :0.559
+ A 262    U  H2'  A 263    G  C8  :0.552
+ A 221    U  C3'  A 221    U  OP1 :0.548
+ A 293    U  H6   A 293    U  OP1 :0.546
+ A 230    U  O4'  A 230    U  P   :0.540
+ A 281    G  C2'  A 282    G  OP2 :0.538
+ A 261    A  O2'  A 262    U  P   :0.527
+ A 195    G  O6   A 314    A  N6  :0.493
+ A 295    C  H6   A 295    C  OP2 :0.483
+ A 292    G  O2'  A 293    U  OP2 :0.471
+ A 202    A  O2'  A 203    A  P   :0.468
+ A 262    U  C4'  A 262    U  OP1 :0.448
+ A 291    G  O2'  A 294    G  N2  :0.445
+ A 237    G  H2'  A 238    U  C6  :0.442
+ A 281    G  O2'  A 282    G  OP2 :0.435
+ A 294    G  H2'  A 295    C  O4' :0.433
+ A 221    U  H2'  A 221    U  O2  :0.416
+ A 314    A  C8   A 314    A  OP2 :0.410
+ A 292    G  H4'  A 293    U  OP2 :0.407
+clashscore = 10.64

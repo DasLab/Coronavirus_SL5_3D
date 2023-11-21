@@ -1,0 +1,53 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 181    A  C8   A 181    A  OP1 :1.056
+ A 277    A  C4   A 277    A  OP2 :1.022
+ A 277    A  C8   A 277    A  OP1 :0.968
+ A 177    U  H3'  A 177    U  O2  :0.927
+ A 255    A  O3'  A 256    G  P   :0.901
+ A 265    U  H3'  A 265    U  OP2 :0.877
+ A 177    U  C3'  A 177    U  O2  :0.712
+ A 273    U  C2'  A 274    G  OP2 :0.706
+ A 175    A  O2'  A 176    G  OP2 :0.683
+ A 181    A  C8   A 181    A  P   :0.679
+ A 181    A  H8   A 181    A  P   :0.652
+ A 277    A  C8   A 277    A  P   :0.628
+ A 277    A  N9   A 277    A  OP2 :0.627
+ A 265    U  C3'  A 265    U  OP2 :0.626
+ A 263    U  O2'  A 264    U  O5' :0.612
+ A 175    A  O2'  A 176    G  P   :0.603
+ A 219    C  H6   A 219    C  OP1 :0.572
+ A 273    U  O2'  A 274    G  P   :0.553
+ A 167    U  O2'  A 168    G  P   :0.549
+ A 219    C  C6   A 219    C  OP1 :0.546
+ A 279    C  C5   A 280    C  C5  :0.541
+ A 177    U  O2   A 177    U  O5' :0.529
+ A 273    U  H2'  A 274    G  OP2 :0.520
+ A 217    A  N6   A 247    U  O4  :0.517
+ A 277    A  N9   A 277    A  P   :0.515
+ A 181    A  H8   A 181    A  OP2 :0.473
+ A 161    G  N1   A 286    C  O2  :0.456
+ A 175    A  N1   A 276    A  O2' :0.451
+ A 224    U  H6   A 224    U  O5' :0.448
+ A 263    U  O4'  A 266    G  O6  :0.438
+ A 277    A  N7   A 277    A  OP1 :0.437
+ A 167    U  O2'  A 168    G  OP2 :0.432
+ A 288    G  N7   A 289    U  C4  :0.431
+ A 206    U  H2'  A 207    C  C6  :0.429
+ A 238    U  H2'  A 239    C  C6  :0.426
+ A 273    U  O2'  A 274    G  OP2 :0.421
+ A 167    U  N1   A 168    G  N7  :0.416
+ A 265    U  H3'  A 265    U  P   :0.415
+ A 222    C  C6   A 224    U  O4  :0.410
+ A 274    G  O4'  A 274    G  OP1 :0.410
+ A 158    C  H6   A 158    C  P   :0.409
+ A 167    U  C4   A 168    G  O6  :0.409
+ A 263    U  H6   A 263    U  O5' :0.406
+ A 223    U  O2   A 225    A  C4  :0.404
+ A 277    A  N3   A 277    A  OP2 :0.402
+ A 161    G  C2   A 286    C  O2  :0.401
+clashscore = 10.33

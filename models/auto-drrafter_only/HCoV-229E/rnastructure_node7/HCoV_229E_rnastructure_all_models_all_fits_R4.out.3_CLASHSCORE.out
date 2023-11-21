@@ -1,0 +1,53 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 279    C  O2'  A 280    C  OP1 :1.135
+ A 234    U  O2'  A 235    C  OP1 :0.988
+ A 277    A  C8   A 277    A  OP2 :0.953
+ A 256    G  O4'  A 256    G  OP1 :0.819
+ A 179    U  H3'  A 179    U  OP1 :0.789
+ A 169    U  O2'  A 170    G  O5' :0.769
+ A 195    C  O2'  A 196    G  P   :0.711
+ A 256    G  O4'  A 256    G  P   :0.709
+ A 174    U  H4'  A 174    U  OP2 :0.687
+ A 274    G  O4'  A 274    G  OP2 :0.684
+ A 179    U  O2'  A 180    A  P   :0.677
+ A 277    A  H8   A 277    A  OP2 :0.671
+ A 170    G  H3'  A 170    G  N3  :0.658
+ A 163    G  N2   A 284    A  N7  :0.624
+ A 255    A  C8   A 255    A  OP2 :0.615
+ A 235    C  H6   A 235    C  P   :0.611
+ A 235    C  H6   A 235    C  OP2 :0.605
+ A 235    C  C6   A 235    C  OP2 :0.601
+ A 169    U  O2'  A 170    G  P   :0.586
+ A 279    C  O2'  A 280    C  P   :0.571
+ A 169    U  C2'  A 170    G  OP2 :0.560
+ A 170    G  C2'  A 170    G  N3  :0.556
+ A 170    G  H2'  A 170    G  N3  :0.540
+ A 209    A  C2   A 210    U  C2  :0.536
+ A 234    U  C2'  A 235    C  OP1 :0.536
+ A 181    A  H2'  A 182    G  O4' :0.532
+ A 196    G  H8   A 196    G  OP2 :0.527
+ A 174    U  C4'  A 174    U  OP2 :0.518
+ A 179    U  O2'  A 180    A  OP1 :0.516
+ A 180    A  O2'  A 211    U  O2  :0.515
+ A 255    A  H8   A 255    A  OP2 :0.502
+ A 166    G  O3'  A 167    U  O4' :0.501
+ A 195    C  O2'  A 196    G  OP2 :0.499
+ A 256    G  C4'  A 256    G  OP1 :0.499
+ A 279    C  C4   A 280    C  C4  :0.497
+ A 170    G  C3'  A 170    G  N3  :0.496
+ A 206    U  H2'  A 207    C  C6  :0.438
+ A 253    G  C8   A 253    G  OP2 :0.437
+ A 195    C  O2'  A 196    G  OP1 :0.429
+ A 179    U  C3'  A 179    U  OP1 :0.426
+ A 251    U  C2'  A 252    G  OP2 :0.425
+ A 169    U  H2'  A 170    G  OP2 :0.421
+ A 169    U  O2'  A 170    G  C5' :0.415
+ A 162    U  H2'  A 163    G  O4' :0.411
+ A 163    G  C6   A 164    C  C4  :0.409
+ A 158    C  N3   A 288    G  N1  :0.404
+clashscore = 10.33

@@ -1,0 +1,45 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  residue               atom 1  atom 2  sigmas
+   A 146    G              O4'     C1'   -5.79
+  1/2137 bond outliers present
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A 146    G              O3'     C3'     C2'    6.56
+  1/3357 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 105    G               80.8        no      22.4       yes
+  1/152 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     C A  10                  !!      0.000      None
+     U A  21                  !!      0.000      None
+     A A  22                  !!      0.000     gamma
+     U A  28                  !!      0.000      None
+     C A  36                  !!      0.000      None
+     G A  41                  !!      0.000     gamma
+     U A  55                  !!      0.000      None
+     C A  56                  !!      0.000     gamma
+     U A  64                  !!      0.000      None
+     A A  73                  !!      0.000     gamma
+     C A  75                  !!      0.000     gamma
+     A A  76                  !!      0.000      None
+     U A  92                  !!      0.000      None
+     G A  95                  !!      0.000     gamma
+     U A  96                  !!      0.000      None
+     G A  99                  !!      0.000     alpha
+     A A 106                  !!      0.000  epsilon-1
+     C A 135                  !!      0.000      None
+     G A 146                  !!      0.000     gamma
+     U A 148                  !!      0.000     gamma
+  10 suites triaged and 0 incomplete leaving 143 suites
+  20/153 suite outliers present
+  Average suiteness: 0.769

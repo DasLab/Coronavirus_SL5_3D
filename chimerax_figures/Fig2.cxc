@@ -1,0 +1,105 @@
+close all
+open ../maps/SARS_CoV_2-4p74-cryosparc_P1_J842_map_sharp.mrc
+open ../models/auto-drrafter_erraser/SARS-CoV-2/m2seq_librarySHAPE_eternafold/SARS_CoV_2-SL5_m2seq_librarySHAPE_eternafold_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+open ../maps/SARS_CoV_2_SL56-7p83-flipped-cryosparc_P3_J1411_map_sharp.mrc
+open ../maps/SARS_CoV_2_SL56_5bext-7p40-flipped-cryosparc_P3_J1278_map_sharp.mrc
+open ../maps/SARS_CoV_2_SL56_5cext-9p07-cryosparc_P3_J1247_map_sharp.mrc
+
+set bgColor white
+lighting soft
+graphics silhouettes true width 5
+view matrix camera -0.054739,0.054873,0.99699,474.28,0.93475,-0.34824,0.070482,185.42,0.35106,0.9358,-0.032229,113.44
+color #2:159-182,263-282 #000000
+color #2:183-227 #0000FF
+color #2:228-252 #ff7f00
+color #2:253-262 #FF0000 
+vol #1 step 1 sdlevel 20 transparency 0.3
+surface dust #1 size 9.83
+color zone #1 near #2 distance 8
+vol #1 transparency 0.6
+
+# TODO get GPN table sent
+
+vol #3 voxelSize 1.1
+
+view matrix models #1,1,0,0,0,0,1,0,0,0,0,1,0,#1.1,1,0,0,0,0,1,0,0,0,0,1,0,#2,1,0,0,0,0,1,0,0,0,0,1,0,#3,0.95506,0.24337,-0.16918,-97.907,0.2749,-0.94073,0.1987,259.4,-0.11079,-0.23628,-0.96535,436.85,#3.1,1,0,0,0,0,1,0,0,0,0,1,0,#4,0.98666,-0.078509,0.14259,-57.361,0.12672,0.92029,-0.37015,28.471,-0.10217,0.38329,0.91796,-100.22,#4.1,1,0,0,0,0,1,0,0,0,0,1,0,#5,-0.91634,-0.27243,-0.29344,530.12,-0.37099,0.85337,0.36624,-68.381,0.15064,0.44446,-0.88304,209.91,#5.1,1,0,0,0,0,1,0,0,0,0,1,0
+
+#SL56
+vol #3 step 1 sdlevel 30
+# fit #3 in #1 search 20
+vol mask #3 surfaces #1 pad 2
+vol subtract #3 #6
+surface dust #7 size 15
+
+# SL56 5b
+vol #4 step 1 sdlevel 24
+# fit #4 in #1 search 20
+vol mask #4 surfaces #1 pad 2
+vol subtract #4 #8
+surface dust #9 size 15
+
+#SL56 5cext
+vol #5 step 1 sdlevel 30
+# fit #5 in #1 search 20
+vol mask #5 surfaces #1 pad 2
+vol subtract #5 #10
+surface dust #11 size 15
+
+color #7,9,11 yellow
+
+hide all target m
+show #1,7 target m
+surface dust #7 size 15
+save vals/56.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #1,9 target m
+surface dust #9 size 15
+save vals/5b.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #1,11 target m
+surface dust #11 size 15
+save vals/5c.png transparentbackground true pixelSize 0.05
+
+open ../models/auto-drrafter_erraser/SARS-CoV-2_SL56/m2seq/SARS_CoV_2-SL56_SL5only_m2seq_all_models_all_fits_FINAL_R4.out.1.pdbFINISHED_1.pdb
+open ../models/auto-drrafter_erraser/SARS-CoV-2_SL56-5bext/m2seq/SARS_CoV_2-SL56_5bext_SL5only_m2seq_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+open ../models/auto-drrafter_erraser/SARS-CoV-2_SL56-5cext/m2seq/SARS_CoV_2-SL56_5cext_SL5only_m2seq_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+view matrix models #12,0.94932,0.2743,-0.15344,-83.889,0.30202,-0.93125,0.20383,240.06,-0.086985,-0.23985,-0.96691,406.5,#13,0.98666,-0.078509,0.14259,-57.361,0.12672,0.92029,-0.37015,28.471,-0.10217,0.38329,0.91796,-100.22,#14,-0.91634,-0.27243,-0.29344,530.12,-0.37099,0.85337,0.36624,-68.381,0.15064,0.44446,-0.88304,209.91
+
+hide all target m
+show #3 target m
+color #12:148-182,263-301 #000000
+color #12:183-227 #0000FF
+color #12:228-252 #ff7f00
+color #12:253-262 #FF0000 
+vol #3 step 1 sdlevel 30 transparency 0.6
+color zone #3 near #12 distance 8
+vol #3 step 1 sdlevel 30 transparency 0.6
+save vals/56_plain.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #4 target m
+color #13:3-35,124-155 #000000
+color #13:36-80 #0000FF
+color #13:81-113 #ff7f00
+color #13:114-123 #FF0000 
+vol #4 step 1 sdlevel 24 transparency 0.6
+color zone #4 near #13 distance 8
+vol #4 step 1 sdlevel 24 transparency 0.6
+save vals/5b_plain.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #5 target m
+color #14:3-35,124-155 #000000
+color #14:36-80 #0000FF
+color #14:81-105 #ff7f00
+color #14:106-123 #FF0000 
+vol #5 step 1 sdlevel 30 transparency 0.6
+color zone #5 near #14 distance 8
+vol #5 step 1 sdlevel 30 transparency 0.6
+save vals/5c_plain.png transparentbackground true pixelSize 0.05
+
+

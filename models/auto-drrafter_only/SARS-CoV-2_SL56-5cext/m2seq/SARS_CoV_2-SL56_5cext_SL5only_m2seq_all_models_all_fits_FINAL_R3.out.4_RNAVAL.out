@@ -1,0 +1,44 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A  94    C              C4'     C3'     C2'    4.13
+   A 116    A              O3'     P       OP2    4.48
+   A 148    U              O3'     C3'     C2'   11.55
+  3/3357 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A  35    U               79.2       yes      52.5       yes
+   A 105    G               80.8        no     147.3       yes
+   A 148    U              106.6       yes     222.0        no
+  3/152 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     C A  15                  !!      0.000      None
+     A A  16                  !!      0.000    zeta-1
+     C A  36                  !!      0.000  epsilon-1
+     U A  54                  !!      0.000      None
+     U A  55                  !!      0.000      None
+     G A  57                  !!      0.000     gamma
+     U A  74                  !!      0.000     gamma
+     C A  75                  !!      0.000     gamma
+     C A  78                  !!      0.000      None
+     U A  92                  !!      0.000      None
+     G A  95                  !!      0.000      None
+     G A  99                  !!      0.000      None
+     A A 106                  !!      0.000  epsilon-1
+     G A 146                  !!      0.000     gamma
+     U A 147                  !!      0.000     gamma
+     U A 148                  !!      0.000     delta
+     U A 149                  !!      0.000   delta-1
+  10 suites triaged and 0 incomplete leaving 143 suites
+  17/153 suite outliers present
+  Average suiteness: 0.781

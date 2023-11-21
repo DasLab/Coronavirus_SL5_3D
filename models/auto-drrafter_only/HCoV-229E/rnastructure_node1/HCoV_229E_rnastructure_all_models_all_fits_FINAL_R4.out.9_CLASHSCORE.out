@@ -1,0 +1,53 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 168    G  C8   A 168    G  P   :1.284
+ A 168    G  H8   A 168    G  P   :1.060
+ A 284    A  O3'  A 284    A  OP1 :0.928
+ A 168    G  H3'  A 168    G  P   :0.797
+ A 182    G  H8   A 182    G  P   :0.761
+ A 168    G  H3'  A 168    G  OP2 :0.749
+ A 168    G  H8   A 168    G  OP1 :0.722
+ A 284    A  O2'  A 285    A  OP2 :0.720
+ A 255    A  H8   A 255    A  OP2 :0.697
+ A 168    G  C8   A 168    G  OP1 :0.690
+ A 159    A H5''  A 160    A  OP1 :0.683
+ A 284    A  C3'  A 284    A  OP1 :0.670
+ A 168    G  C3'  A 168    G  P   :0.612
+ A 181    A  C2'  A 182    G  OP1 :0.600
+ A 182    G  H8   A 182    G  OP1 :0.594
+ A 248    G  H8   A 248    G  OP2 :0.589
+ A 284    A  H4'  A 285    A  OP2 :0.586
+ A 181    A  N6   A 209    A  N3  :0.579
+ A 284    A  O2'  A 285    A  P   :0.549
+ A 178    C  H6   A 178    C  O5' :0.539
+ A 255    A  O2'  A 256    G  O4' :0.530
+ A 211    U  H6   A 211    U  O5' :0.529
+ A 182    G  C8   A 182    G  OP1 :0.525
+ A 181    A  H2'  A 181    A  N3  :0.517
+ A 277    A  O3'  A 278    A  O4' :0.507
+ A 158    C  O2   A 288    G  N2  :0.489
+ A 194    C  H6   A 194    C  OP2 :0.485
+ A 224    U  N3   A 225    A  N7  :0.481
+ A 278    A  H8   A 278    A  OP2 :0.480
+ A 255    A  C8   A 255    A  OP2 :0.471
+ A 289    U  C6   A 289    U  OP2 :0.455
+ A 276    A  O3'  A 277    A  O4' :0.446
+ A 278    A  C8   A 278    A  OP2 :0.439
+ A 196    G  O4'  A 196    G  OP1 :0.437
+ A 206    U  H2'  A 207    C  C6  :0.433
+ A 277    A  H8   A 277    A  OP2 :0.421
+ A 255    A  O2'  A 256    G  C8  :0.420
+ A 248    G  C8   A 248    G  OP2 :0.418
+ A 266    G  H8   A 266    G  O5' :0.417
+ A 263    U  N3   A 267    U  O4  :0.415
+ A 277    A  H2'  A 278    A  C1' :0.412
+ A 163    G  C6   A 164    C  C4  :0.410
+ A 211    U  C6   A 211    U  O5' :0.410
+ A 158    C  N3   A 288    G  N1  :0.407
+ A 255    A  O2'  A 256    G  C1' :0.404
+ A 283    U H5''  A 284    A  OP2 :0.401
+clashscore = 10.33

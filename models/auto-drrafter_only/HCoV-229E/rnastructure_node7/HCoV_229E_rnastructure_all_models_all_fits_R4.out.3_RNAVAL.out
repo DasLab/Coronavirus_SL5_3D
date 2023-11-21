@@ -1,0 +1,54 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A 158    C              C4'     C3'     C2'    4.58
+   A 238    U              C3'     C2'     C1'    4.33
+   A 238    U              O4'     C4'     C3'    5.46
+   A 254    A              C3'     C2'     C1'    5.67
+  4/3071 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 169    U               79.9        no     126.4       yes
+   A 179    U               82.8        no      76.3       yes
+   A 195    C               79.3        no      84.5       yes
+   A 234    U               86.9        no     142.7       yes
+   A 279    C               81.8        no     125.6       yes
+  5/139 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     C A 158                  !!      0.000      None
+     A A 159                  !!      0.000     gamma
+     U A 167                  !!      0.000     gamma
+     G A 168                  !!      0.000      None
+     G A 170                  !!      0.000  epsilon-1
+     U A 174                  !!      0.000     gamma
+     U A 179                  !!      0.000      None
+     A A 180                  !!      0.000  epsilon-1
+     G A 182                  !!      0.000     gamma
+     C A 195                  !!      0.000     gamma
+     G A 196                  !!      0.000  epsilon-1
+     C A 212                  !!      0.000     gamma
+     U A 223                  !!      0.000     gamma
+     C A 235                  !!      0.000  epsilon-1
+     G A 252                  !!      0.000      None
+     A A 254                  !!      0.000      None
+     G A 256                  !!      0.000     gamma
+     U A 263                  !!      0.000      None
+     G A 274                  !!      0.000      None
+     A A 277                  !!      0.000      None
+     A A 278                  !!      0.000     gamma
+     C A 280                  !!      0.000  epsilon-1
+     A A 285                  !!      0.000    zeta-1
+     G A 288                  !!      0.000     gamma
+  16 suites triaged and 0 incomplete leaving 124 suites
+  24/140 suite outliers present
+  Average suiteness: 0.746

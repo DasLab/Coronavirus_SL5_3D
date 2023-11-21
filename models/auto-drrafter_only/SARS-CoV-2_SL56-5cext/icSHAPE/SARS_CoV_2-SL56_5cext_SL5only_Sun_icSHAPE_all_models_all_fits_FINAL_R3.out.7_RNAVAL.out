@@ -1,0 +1,44 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A  27    G              O3'     P       O5'   -4.49
+  1/3357 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A  27    G              134.6        no     336.6       yes
+   A  73    A               75.9       yes      76.4       yes
+   A 105    G               80.9        no      22.4       yes
+  3/152 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     C A  10                  !!      0.000      None
+     A A  22                  !!      0.000      None
+     A A  23                  !!      0.000      None
+     U A  28                  !!      0.000  epsilon-1
+     C A  36                  !!      0.000      None
+     G A  57                  !!      0.000      None
+     U A  64                  !!      0.000     gamma
+     U A  65                  !!      0.000      None
+     G A  66                  !!      0.000      None
+     A A  73                  !!      0.000     alpha
+     U A  74                  !!      0.000  epsilon-1
+     C A  78                  !!      0.000      None
+     G A  95                  !!      0.000     gamma
+     U A  96                  !!      0.000      None
+     G A  99                  !!      0.000     alpha
+     A A 106                  !!      0.000  epsilon-1
+     U A 147                  !!      0.000     alpha
+     U A 148                  !!      0.000      None
+     U A 149                  !!      0.000     gamma
+  9 suites triaged and 0 incomplete leaving 144 suites
+  19/153 suite outliers present
+  Average suiteness: 0.774

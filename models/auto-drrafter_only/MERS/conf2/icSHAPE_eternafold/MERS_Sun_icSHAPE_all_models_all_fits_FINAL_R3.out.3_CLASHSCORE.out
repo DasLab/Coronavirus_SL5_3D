@@ -1,0 +1,53 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 227    U  O2'  A 228    C  OP1 :0.997
+ A 281    G  H3'  A 281    G  OP2 :0.960
+ A 272    G  N2   A 273    C  O4' :0.844
+ A 280    U  O3'  A 280    U  OP1 :0.839
+ A 272    G  H2'  A 272    G  N3  :0.778
+ A 214    U  C6   A 214    U  OP1 :0.703
+ A 269    G  OP2  A 312    G  O4' :0.697
+ A 286    U  O2'  A 287    C  OP2 :0.667
+ A 332    A  C2'  A 333    G  O5' :0.643
+ A 271    G  O2'  A 272    G  O5' :0.641
+ A 214    U  C5   A 214    U  OP1 :0.631
+ A 238    A  C2'  A 239    U  OP1 :0.622
+ A 267    U  O2'  A 268    C  O5' :0.619
+ A 280    U  H3'  A 280    U  P   :0.619
+ A 310    G  O2'  A 311    U  O5' :0.617
+ A 280    U  C3'  A 280    U  P   :0.603
+ A 266    U  O2'  A 268    C  O2  :0.586
+ A 272    G  C2'  A 272    G  N3  :0.583
+ A 280    U  C3'  A 280    U  OP1 :0.580
+ A 214    U  H6   A 214    U  P   :0.572
+ A 310    G  C2'  A 311    U  O5' :0.561
+ A 289    U  C6   A 289    U  OP1 :0.559
+ A 238    A  O2'  A 239    U  OP1 :0.545
+ A 214    U  C6   A 214    U  P   :0.538
+ A 281    G  H3'  A 281    G  P   :0.531
+ A 289    U  H6   A 289    U  OP1 :0.531
+ A 237    A  C2   A 259    G  C2  :0.529
+ A 270    G  N2   A 272    G  N7  :0.522
+ A 214    U  H6   A 214    U  OP1 :0.516
+ A 238    A  C5   A 239    U  C4  :0.477
+ A 286    U  C4'  A 287    C  O5' :0.471
+ A 270    G  O6   A 312    G  N2  :0.463
+ A 299    G  O2'  A 300    A  O5' :0.461
+ A 237    A  H2'  A 238    A  C8  :0.456
+ A 332    A  H2'  A 333    G  O5' :0.453
+ A 221    U  H2'  A 222    G  O4' :0.441
+ A 314    G  H8   A 314    G  P   :0.440
+ A 238    A  N6   A 257    G  O6  :0.438
+ A 216    U  O4   A 217    C  N4  :0.433
+ A 264    A  H8   A 264    A  O5' :0.426
+ A 332    A  O2'  A 333    G  O5' :0.426
+ A 267    U  H4'  A 268    C  O4' :0.423
+ A 309    G  H2'  A 310    G  O4' :0.423
+ A 266    U  C2'  A 267    U  OP2 :0.420
+ A 239    U  O4'  A 239    U  OP1 :0.415
+ A 238    A  H2'  A 239    U  OP1 :0.400
+clashscore = 10.65

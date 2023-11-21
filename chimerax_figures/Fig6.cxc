@@ -1,0 +1,354 @@
+# visualize alphas
+
+
+# TODO change to ERRASER models
+
+close all
+open ../maps/HCoV_229E-6p48-cryosparc_P3_J880_map_sharp.mrc
+open ../models/auto-drrafter_only/HCoV-229E/eternafold_node7/*.pdb
+open ../models/auto-drrafter_only/HCoV-229E/manual/*.pdb
+
+
+open ../maps/HCoV_NL63_con1-8p42-cryosparc_P3_J1258_map_sharp.mrc
+open ../models/auto-drrafter_only/HCoV-NL63/conf1/*/*.pdb
+open ../maps/HCoV_NL63_con2-8p95-cryosparc_P3_J1250_map_sharp.mrc
+open ../models/auto-drrafter_only/HCoV-NL63/conf2/*/*.pdb
+
+open ../maps/BtCoV_HKU5_con4-7p29-cryosparc_P2_J371_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf4/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R7.out.1.pdbFINISHED_1.pdb
+
+open ../maps/SARS_CoV_2-4p74-cryosparc_P1_J842_map_sharp.mrc
+open ../models/auto-drrafter_erraser/SARS-CoV-2/m2seq_librarySHAPE_eternafold/SARS_CoV_2-SL5_m2seq_librarySHAPE_eternafold_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+open ../maps/SARS_CoV_1-7p05-cryosparc_P18_J109_map_sharp.mrc
+open ../models/auto-drrafter_erraser/SARS-CoV-1/icSHAPE/SARS_CoV_1_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+open ../maps/MERS_con3-6p44-cryosparc_P1_J323_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf3/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R3.out.1.pdbFINISHED_1.pdb
+
+
+set bgColor white
+lighting flat
+hide all target m
+show #1 target m
+vol #1 step 1 sdlevel 18 transparency 0.3
+
+# TODO change numbering if have new models
+
+color #2:210-255,176-178 #000000
+color #2:256-273 #0000FF
+color #2:153-174,274-292 #ff7f00
+color #2:175,179-209 #FF0000
+color zone #1 near #2 distance 12
+vol #1 step 1 sdlevel 18 transparency 0.3
+view matrix camera 0.059765,-0.92782,-0.3682,91.713,-0.32717,-0.36669,0.87092,316.72,-0.94307,0.068414,-0.32547,98.265
+save alphas/299e_option1.png transparentbackground true pixelSize 0.05
+view matrix camera -0.80453,0.39494,0.44357,266.34,-0.55708,-0.24297,-0.79412,-31.829,-0.20585,-0.886,0.41549,263.04
+save alphas/299e_view_option1.png transparentbackground true pixelSize 0.05
+
+color #2:210-255,176-178 #FF0000
+color #2:256-273 #000000
+color #2:153-174,274-292 #0000FF
+color #2:175,179-209 #ff7f00
+color zone #1 near #2 distance 12
+vol #1 step 1 sdlevel 18 transparency 0.3
+view matrix camera 0.059765,-0.92782,-0.3682,91.713,-0.32717,-0.36669,0.87092,316.72,-0.94307,0.068414,-0.32547,98.265
+save alphas/299e_option2.png transparentbackground true pixelSize 0.05
+view matrix camera 0.87482,-0.29672,0.38293,251.06,0.46719,0.30782,-0.82884,-43.693,0.12805,0.904,0.40792,254.68
+save alphas/299e_view_option2.png transparentbackground true pixelSize 0.05
+
+color #2:210-255,176-178 #ff7f00
+color #2:256-273 #FF0000
+color #2:153-174,274-292 #000000
+color #2:175,179-209 #0000FF
+color zone #1 near #2 distance 12
+vol #1 step 1 sdlevel 18 transparency 0.3
+view matrix camera 0.059765,-0.92782,-0.3682,91.713,-0.32717,-0.36669,0.87092,316.72,-0.94307,0.068414,-0.32547,98.265
+save alphas/299e_option3.png transparentbackground true pixelSize 0.05
+view matrix camera -0.77009,0.45148,-0.45069,48.381,-0.062032,0.65015,0.75728,341.41,0.6349,0.61113,-0.47267,44.478
+save alphas/299e_view_option3.png transparentbackground true pixelSize 0.05
+
+color #2:210-255,176-178 #4b4bff
+color #2:256-273 #ff9e43
+color #2:153-174,274-292 #FF0000
+color #2:175,179-209 #000000
+color zone #1 near #2 distance 12
+vol #1 step 1 sdlevel 18 transparency 0.3
+view matrix camera 0.059765,-0.92782,-0.3682,91.713,-0.32717,-0.36669,0.87092,316.72,-0.94307,0.068414,-0.32547,98.265
+save alphas/299e_option4.png transparentbackground true pixelSize 0.05
+view matrix camera 0.67683,-0.48193,-0.55645,30.798,0.1804,-0.62427,0.76009,347.29,-0.71368,-0.61484,-0.33559,72.382
+save alphas/299e_view_option4.png transparentbackground true pixelSize 0.05
+
+color zone #1 near #2 distance 12
+vol splitbyzone #1
+vol #62.2 transparency 0.5
+vol #62.3 transparency 0.5
+save alphas/299e_view_option4_transp.png transparentbackground true pixelSize 0.05
+
+turn y 180
+color #62.3 #818181
+color #62.2 #cf4b4b
+color #62.4 #FF0000
+color #62.5 #ff7f00
+vol #62.2 transparency 0
+vol #62.3 transparency 0
+vol #62.4 transparency 0.5
+vol #62.5 transparency 0.5
+save alphas/299e_view_y180_option4_transp.png transparentbackground true pixelSize 0.05
+
+view matrix camera -0.25266,0.82516,-0.50524,39.27,0.12514,0.54567,0.8286,362.83,0.95942,0.14613,-0.24113,96.179
+save alphas/299e_view_option4_transp_altview.png transparentbackground true pixelSize 0.05
+
+
+hide all target m
+show #22 target m
+color #23:214-239,211 #FF0000
+color #23:152-169,240-275,208-210 #000000
+color #23:170-207,212-213 #ff9e43
+color #23:210@N2,H22,H21,C2,N3 #ff9e43
+color #23:137-151,276-296 #4b4bff
+vol #22 step 1 sdlevel 18 transparency 0.3
+color zone #22 near #23 distance 12
+vol #22 step 1 sdlevel 18 transparency 0.3
+view matrix camera 0.95971,-0.15379,-0.23516,111.46,0.21357,-0.14461,0.96617,422.92,-0.18259,-0.97746,-0.10594,143.11
+save alphas/NL63_conf1.png transparentbackground true pixelSize 0.05
+
+color zone #22 near #23 distance 12
+vol splitbyzone #22
+vol #63.2 transparency 0.5
+vol #63.3 transparency 0.5
+save alphas/NL63_conf1_transp.png transparentbackground true pixelSize 0.05
+
+turn y 180
+color #63.3 #818181
+color #63.2 #FF0000
+color #63.4 #ff7f00
+color #63.5 #cf4b4b
+vol #63.2 transparency 0
+vol #63.3 transparency 0
+vol #63.4 transparency 0.5
+vol #63.5 transparency 0.5
+save alphas/NL63_conf1_y180_transp.png transparentbackground true pixelSize 0.05
+
+hide all target m
+show #33 target m
+color #44:219-228,232-237 #FF0000
+color #44:164-218,229-231 #000000
+color #44:278-296,137-153 #ff9e43
+color #44:154-163,238-277 #4b4bff
+vol #33 step 1 sdlevel 12 transparency 0.3
+color zone #33 near #44 distance 30
+vol #33 step 1 sdlevel 12 transparency 0.3
+view matrix camera 0.5889,-0.40168,-0.70132,-27.469,0.78813,0.093262,0.60839,345.26,-0.17897,-0.91102,0.3715,276.01
+save alphas/NL63_conf2.png transparentbackground true pixelSize 0.05
+color zone #33 near #44 distance 30
+vol splitbyzone #33
+vol #64.4 transparency 0.5
+vol #64.5 transparency 0.5
+save alphas/NL63_conf2_transp.png transparentbackground true pixelSize 0.05
+view matrix camera -0.28336,0.6541,-0.70132,-25.123,-0.71614,0.34206,0.60839,349.04,0.63784,0.67464,0.3715,274.25
+save alphas/NL63_conf2_transp_altview.png transparentbackground true pixelSize 0.05
+
+turn y 180
+color #64.3 #FF0000
+color #64.2 #ff7f00
+color #64.4 #818181
+color #64.5 #cf4b4b
+vol #64.5 transparency 0
+vol #64.4 transparency 0
+vol #64.3 transparency 0.5
+vol #64.2 transparency 0.5
+save alphas/NL63_conf1_y180_transp.png transparentbackground true pixelSize 0.05
+
+# color BtCoV-HKU5
+hide all target m
+show #54 target m
+color #55:187-209,303-321 #000000
+color #55:210-254 #4b4bff
+color #55:255-281 #ff9e43
+color #55:282-302 #FF0000
+vol #54 step 1 sdlevel 6 transparency 0.3
+color zone #54 near #55 distance 8
+vol #54 step 1 sdlevel 6 transparency 0.3
+view matrix camera 0.24559,0.51075,0.8239,228.54,0.95199,0.03312,-0.30431,22.675,-0.18271,0.85909,-0.4781,-12.204
+#for con1 view matrix camera 0.30829,0.55686,0.77127,220.73,0.95128,-0.17725,-0.25228,35.461,-0.0037715,0.81147,-0.58438,-31.27
+save alphas/BtCoV.png transparentbackground true pixelSize 0.05
+
+color zone #54 near #55 distance 8
+vol splitbyzone #54
+vol #65.2 transparency 0.5
+vol #65.5 transparency 0.5
+save alphas/BtCoV_transp.png transparentbackground true pixelSize 0.05
+
+# color SARS-CoV-2
+hide all target m
+show #56 target m
+color #57:159-182,263-282 #000000
+color #57:183-227 #4b4bff
+color #57:228-252 #ff9e43
+color #57:253-262 #FF0000
+surface dust #56 size 9.83 
+vol #56 step 1 sdlevel 20
+color zone #56 near #57 distance 8
+vol #56 transparency 0.3
+view matrix camera 0.1051,0.63402,0.76615,321.99,0.96493,-0.25137,0.075635,175.46,0.24054,0.73133,-0.6382,-4.2999
+save alphas/SARS2.png transparentbackground true pixelSize 0.05
+
+color zone #56 near #57 distance 8
+vol splitbyzone #56
+vol #66.2 transparency 0.5
+vol #66.5 transparency 0.5
+save alphas/SARS2_transp.png transparentbackground true pixelSize 0.05
+
+
+
+# color SARS1
+hide all target m
+show #58 target m
+color #59:150-181,262-292 #000000
+color #59:182-226 #4b4bff
+color #59:227-251 #ff9e43
+color #59:252-261 #FF0000
+vol #58 step 1 sdlevel 20 
+color zone #58 near #59 distance 8
+vol #58 transparency 0.3
+view matrix camera -0.21202,-0.56805,-0.79522,-37.032,-0.96899,0.22783,0.095602,179.82,0.12687,0.79083,-0.59874,-1.9494
+save alphas/SARS1.png transparentbackground true pixelSize 0.05
+
+color zone #58 near #59 distance 8
+vol splitbyzone #58
+vol #67.2 transparency 0.5
+vol #67.5 transparency 0.5
+save alphas/SARS1_transp.png transparentbackground true pixelSize 0.05
+
+
+# color MERS
+hide all target m
+show #60 target m
+color #61:205-227,321-339 #000000
+color #61:228-271 #4b4bff
+color #61:272-299 #ff9e43
+color #61:300-320 #FF0000
+vol #60 step 1 sdlevel 16
+color zone #60 near #61 distance 8
+vol #60 transparency 0.3
+view matrix camera 0.14493,0.57433,0.80569,331.96,0.9787,0.036451,-0.20204,97.603,-0.14541,0.81781,-0.55681,12.022
+save alphas/MERS.png transparentbackground true pixelSize 0.05
+
+color zone #60 near #61 distance 8
+vol splitbyzone #60
+vol #68.2 transparency 0.5
+vol #68.5 transparency 0.5
+save alphas/MERS_transp.png transparentbackground true pixelSize 0.05
+
+
+
+open ../maps/BtCoV_HKU5_con1-*_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf1/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R*.out.1.pdbFINISHED_1.pdb
+hide all target m
+show #69 target m
+color #70:187-209,303-321 #000000
+color #70:210-254 #4b4bff
+color #70:255-281 #ff9e43
+color #70:282-302 #FF0000
+vol #69 step 1 sdlevel 6 transparency 0.3
+color zone #69 near #70 distance 8
+vol #69 step 1 sdlevel 6 transparency 0.3
+view matrix camera 0.30829,0.55686,0.77127,220.73,0.95128,-0.17725,-0.25228,35.461,-0.0037715,0.81147,-0.58438,-31.27
+save alphas/BtCoV_c1.png transparentbackground true pixelSize 0.05
+
+color zone #69 near #70 distance 8
+vol splitbyzone #69
+vol #71.2 transparency 0.5
+vol #71.5 transparency 0.5
+save alphas/BtCoV_c1_transp.png transparentbackground true pixelSize 0.05
+
+open ../maps/BtCoV_HKU5_con2-*_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf2/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R*.out.1.pdbFINISHED_1.pdb
+hide all target m
+show #72 target m
+color #73:187-209,303-321 #000000
+color #73:210-254 #4b4bff
+color #73:255-281 #ff9e43
+color #73:282-302 #FF0000
+vol #72 step 1 sdlevel 6 transparency 0.3
+color zone #72 near #73 distance 8
+vol #72 step 1 sdlevel 6 transparency 0.3
+view matrix camera 0.30829,0.55686,0.77127,220.73,0.95128,-0.17725,-0.25228,35.461,-0.0037715,0.81147,-0.58438,-31.27
+save alphas/BtCoV_c2.png transparentbackground true pixelSize 0.05
+
+color zone #72 near #73 distance 8
+vol splitbyzone #72
+vol #74.2 transparency 0.5
+vol #74.5 transparency 0.5
+save alphas/BtCoV_c2_transp.png transparentbackground true pixelSize 0.05
+
+
+open ../maps/BtCoV_HKU5_con3-*_map_sharp.mrc
+open ../models/auto-drrafter_erraser/BtCoV-HKU5/conf3/icSHAPE/BtCoV_HKU5_Sun_icSHAPE_G317A_all_models_all_fits_FINAL_R*.out.1.pdbFINISHED_1.pdb
+hide all target m
+show #75 target m
+color #76:187-209,303-321 #000000
+color #76:210-254 #4b4bff
+color #76:255-281 #ff9e43
+color #76:282-302 #FF0000
+vol #75 step 1 sdlevel 6 transparency 0.3
+color zone #75 near #76 distance 8
+vol #75 step 1 sdlevel 6 transparency 0.3
+view matrix camera 0.24559,0.51075,0.8239,228.54,0.95199,0.03312,-0.30431,22.675,-0.18271,0.85909,-0.4781,-12.204
+#for con1 view matrix camera 0.30829,0.55686,0.77127,220.73,0.95128,-0.17725,-0.25228,35.461,-0.0037715,0.81147,-0.58438,-31.27
+save alphas/BtCoV_c3.png transparentbackground true pixelSize 0.05
+
+color zone #75 near #76 distance 8
+vol splitbyzone #75
+vol #77.2 transparency 0.5
+vol #77.5 transparency 0.5
+save alphas/BtCoV_c3_transp.png transparentbackground true pixelSize 0.05
+
+
+
+open ../maps/MERS_con1-*_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf1/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R*.out.1.pdbFINISHED_1.pdb
+hide all target m
+show #78 target m
+color #79:205-227,321-339 #000000
+color #79:228-271 #4b4bff
+color #79:272-299 #ff9e43
+color #79:300-320 #FF0000
+vol #78 step 1 sdlevel 16
+color zone #78 near #79 distance 8
+vol #78 transparency 0.3
+view matrix camera 0.14493,0.57433,0.80569,331.96,0.9787,0.036451,-0.20204,97.603,-0.14541,0.81781,-0.55681,12.022
+save alphas/MERS_c1.png transparentbackground true pixelSize 0.05
+
+color zone #78 near #79 distance 8
+vol splitbyzone #78
+vol #80.2 transparency 0.5
+vol #80.5 transparency 0.5
+save alphas/MERS_c1_transp.png transparentbackground true pixelSize 0.05
+
+
+open ../maps/MERS_con2-*_map_sharp.mrc
+open ../models/auto-drrafter_erraser/MERS/conf2/icSHAPE_eternafold/MERS_Sun_icSHAPE_all_models_all_fits_FINAL_R*.out.1.pdbFINISHED_1.pdb
+hide all target m
+show #81 target m
+color #82:205-227,321-339 #000000
+color #82:228-271 #4b4bff
+color #82:272-299 #ff9e43
+color #82:300-320 #FF0000
+vol #81 step 1 sdlevel 16
+color zone #81 near #82 distance 8
+vol #81 transparency 0.3
+view matrix camera 0.14493,0.57433,0.80569,331.96,0.9787,0.036451,-0.20204,97.603,-0.14541,0.81781,-0.55681,12.022
+save alphas/MERS_c2.png transparentbackground true pixelSize 0.05
+
+color zone #81 near #82 distance 8
+vol splitbyzone #81
+vol #83.2 transparency 0.5
+vol #83.5 transparency 0.5
+vol #83.3 transparency 0
+vol #83.4 transparency 0
+
+save alphas/MERS_c2_transp.png transparentbackground true pixelSize 0.05
+
+# for figure size 6%

@@ -1,0 +1,44 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  residue               atom 1  atom 2  sigmas
+   A 223    U              C3'     C2'    4.76
+  1/1885 bond outliers present
+
+                    ----------Backbone bond angles----------                   
+
+  All angles within 4.0 sigma of ideal values.
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 219    A               84.6        no      79.9       yes
+   A 220    A               76.4        no     151.1       yes
+   A 281    G               80.9        no      80.0       yes
+   A 292    G              159.5        no     356.8       yes
+  4/134 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     U A 193                  !!      0.000     gamma
+     C A 210                  !!      0.000     gamma
+     A A 211                  !!      0.000      None
+     A A 220                  !!      0.000  epsilon-1
+     U A 221                  !!      0.000  epsilon-1
+     C A 231                  !!      0.000     gamma
+     U A 242                  !!      0.000      None
+     G A 244                  !!      0.000     alpha
+     A A 246                  !!      0.000      None
+     A A 247                  !!      0.000     gamma
+     G A 263                  !!      0.000      None
+     G A 272                  !!      0.000     gamma
+     G A 282                  !!      0.000  epsilon-1
+     A A 289                  !!      0.000     gamma
+     U A 293                  !!      0.000  epsilon-1
+     C A 295                  !!      0.000      None
+     G A 296                  !!      0.000      beta
+     G A 315                  !!      0.000      None
+  12 suites triaged and 0 incomplete leaving 123 suites
+  18/135 suite outliers present
+  Average suiteness: 0.769

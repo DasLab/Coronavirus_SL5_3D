@@ -1,0 +1,45 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A 291    G              O3'     P       O5'   -5.37
+  1/2961 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 192    A              152.2        no     356.1       yes
+   A 254    G               81.6       yes      49.8       yes
+   A 291    G               83.3        no     130.3       yes
+   A 302    C               81.6        no      31.6       yes
+  4/134 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     U A 193                  !!      0.000  epsilon-1
+     U A 198                  !!      0.000     gamma
+     U A 221                  !!      0.000      None
+     U A 229                  !!      0.000      None
+     U A 230                  !!      0.000     gamma
+     C A 231                  !!      0.000      None
+     G A 239                  !!      0.000      None
+     G A 243                  !!      0.000      None
+     G A 244                  !!      0.000      beta
+     A A 247                  !!      0.000     gamma
+     C A 255                  !!      0.000  epsilon-1
+     G A 263                  !!      0.000      None
+     U A 267                  !!      0.000     gamma
+     U A 271                  !!      0.000     gamma
+     G A 292                  !!      0.000  epsilon-1
+     G A 294                  !!      0.000      None
+     A A 303                  !!      0.000  epsilon-1
+     C A 313                  !!      0.000      None
+     G A 315                  !!      0.000     gamma
+  11 suites triaged and 0 incomplete leaving 124 suites
+  19/135 suite outliers present
+  Average suiteness: 0.750

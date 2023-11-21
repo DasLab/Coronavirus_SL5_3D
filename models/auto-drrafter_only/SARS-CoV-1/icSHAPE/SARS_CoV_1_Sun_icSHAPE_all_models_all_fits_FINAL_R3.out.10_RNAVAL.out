@@ -1,0 +1,44 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   A 211    U              O3'     P       OP1   35.62
+  1/3137 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 181    U               79.3        no      77.8       yes
+   A 221    C               82.9        no      31.2       yes
+   A 251    G               80.8        no      97.5       yes
+   A 256    A               84.6        no     143.0       yes
+   A 283    G               80.9        no      39.2       yes
+  5/142 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     A A 161                  !!      0.000      None
+     A A 162                  !!      0.000      None
+     U A 167                  !!      0.000      None
+     A A 168                  !!      0.000      None
+     U A 174                  !!      0.000     gamma
+     C A 182                  !!      0.000  epsilon-1
+     U A 200                  !!      0.000     gamma
+     A A 219                  !!      0.000      None
+     C A 221                  !!      0.000      None
+     A A 222                  !!      0.000  epsilon-1
+     A A 234                  !!      0.000     gamma
+     G A 241                  !!      0.000      beta
+     A A 252                  !!      0.000  epsilon-1
+     A A 257                  !!      0.000  epsilon-1
+     G A 284                  !!      0.000  epsilon-1
+     U A 285                  !!      0.000    zeta-1
+     G A 286                  !!      0.000      None
+  10 suites triaged and 0 incomplete leaving 133 suites
+  17/143 suite outliers present
+  Average suiteness: 0.786

@@ -1,0 +1,46 @@
+
+                    ----------Backbone bond lenths----------                   
+
+  All bonds within 4.0 sigma of ideal values.
+
+                    ----------Backbone bond angles----------                   
+
+  All angles within 4.0 sigma of ideal values.
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   A 185    C               81.4       yes      34.5       yes
+   A 186    A               79.2        no     146.4       yes
+   A 201    U               85.0        no     153.0       yes
+   A 220    U               76.3        no     120.1       yes
+   A 251    G               80.8        no     109.3       yes
+   A 257    A               82.9        no     147.7       yes
+   A 283    G               73.3        no      32.8       yes
+  7/142 pucker outliers present
+
+                  ----------Backbone torsion suites----------                  
+
+  Suite ID                 suite  suiteness  triaged angle
+     A A 161                  !!      0.000     gamma
+     C A 182                  !!      0.000     gamma
+     A A 186                  !!      0.000  epsilon-1
+     G A 187                  !!      0.000  epsilon-1
+     U A 193                  !!      0.000     gamma
+     U A 201                  !!      0.000     gamma
+     C A 202                  !!      0.000  epsilon-1
+     U A 210                  !!      0.000     gamma
+     G A 218                  !!      0.000     alpha
+     C A 221                  !!      0.000  epsilon-1
+     A A 234                  !!      0.000     gamma
+     G A 235                  !!      0.000      None
+     A A 252                  !!      0.000  epsilon-1
+     A A 257                  !!      0.000      None
+     A A 258                  !!      0.000  epsilon-1
+     A A 262                  !!      0.000     gamma
+     G A 283                  !!      0.000      None
+     G A 284                  !!      0.000  epsilon-1
+     U A 285                  !!      0.000    zeta-1
+  16 suites triaged and 0 incomplete leaving 127 suites
+  19/143 suite outliers present
+  Average suiteness: 0.787

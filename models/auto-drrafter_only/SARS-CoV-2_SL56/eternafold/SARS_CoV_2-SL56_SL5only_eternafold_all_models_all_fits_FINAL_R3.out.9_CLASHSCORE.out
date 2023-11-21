@@ -1,0 +1,58 @@
+
+Using nuclear cloud x-H distances and vdW radii
+
+Using input model H/D atoms...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 165    G  C8   A 165    G  OP1 :1.171
+ A 165    G  H8   A 165    G  P   :1.148
+ A 165    G  C8   A 165    G  P   :1.027
+ A 165    G  H8   A 165    G  OP2 :0.940
+ A 262    U  O2'  A 263    A  OP1 :0.878
+ A 174    G  C2'  A 175    U  OP1 :0.844
+ A 262    U  O2'  A 263    A  P   :0.720
+ A 164    C  O4'  A 273    G  OP2 :0.714
+ A 252    G  O2'  A 253    A  O5' :0.713
+ A 165    G  C8   A 165    G  OP2 :0.704
+ A 257    A  H8   A 257    A  OP1 :0.696
+ A 257    A  C8   A 257    A  OP1 :0.691
+ A 168    U  O2'  A 169    A  OP2 :0.675
+ A 174    G  O2'  A 175    U  OP1 :0.668
+ A 256    G  H8   A 256    G  OP2 :0.651
+ A 169    A  O2'  A 170    A  O5' :0.639
+ A 277    U  C2'  A 278    G  O5' :0.622
+ A 251    U  O2'  A 254    C  OP1 :0.622
+ A 277    U  H2'  A 278    G  O5' :0.618
+ A 174    G  H2'  A 175    U  OP1 :0.613
+ A 186    C  O2'  A 187    A  OP1 :0.602
+ A 260    G  H8   A 260    G  OP2 :0.599
+ A 174    G  O6   A 270    A  N6  :0.589
+ A 223    A  H8   A 223    A  OP2 :0.588
+ A 205    U  H6   A 205    U  O5' :0.565
+ A 168    U  H4'  A 169    A  OP2 :0.558
+ A 182    U H5''  A 183    C  P   :0.529
+ A 223    A  C8   A 223    A  OP2 :0.517
+ A 260    G  C8   A 260    G  OP2 :0.507
+ A 185    G  C6   A 186    C  C4  :0.504
+ A 279    U  H2'  A 280    C  C6  :0.501
+ A 287    U  H6   A 287    U  OP1 :0.495
+ A 174    G  C6   A 271    G  C2  :0.490
+ A 253    A  C6   A 263    A  N6  :0.478
+ A 183    C  C4   A 252    G  C2  :0.475
+ A 280    C  H6   A 280    C  O5' :0.472
+ A 277    U  O2'  A 278    G  OP1 :0.470
+ A 163    A  H2'  A 163    A  N3  :0.461
+ A 285    G  O2'  A 288    U  O4  :0.447
+ A 280    C  C4   A 281    C  N4  :0.441
+ A 186    C  C4   A 187    A  C4  :0.426
+ A 243    U  C4   A 244    C  C4  :0.421
+ A 287    U  C6   A 287    U  OP1 :0.420
+ A 182    U H5''  A 183    C  OP1 :0.419
+ A 174    G  C6   A 175    U  C4  :0.411
+ A 169    A  H4'  A 170    A  O5' :0.406
+ A 252    G  H4'  A 253    A  O5' :0.405
+ A 169    A  O2'  A 170    A  C5' :0.405
+ A 227    G  C6   A 228    C  C4  :0.404
+ A 258    A  H2'  A 259    A  C8  :0.404
+ A 163    A  H4'  A 164    C  OP1 :0.400
+clashscore = 11.02

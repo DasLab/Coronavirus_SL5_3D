@@ -1,0 +1,307 @@
+# auto-DRRAFTER and ERRASER2 modeling
+
+##############################################################################
+##############################################################################
+# Inputs
+# General
+# higest threshold that all connection seen
+# generally select bottom of SL5b stem as point
+##############################################################################
+##############################################################################
+
+##############################################################################
+# SARS CoV 2 SL5
+##############################################################################
+map=../Coronavirus_SL5/maps/SARS_CoV_2-4p74-cryosparc_P1_J842_map_sharp.mrc
+resolution=4.74
+fasta=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL5.fasta
+threshold=0.3
+end_node=8
+
+# SARS CoV 2 SL5 m2seq_librarySHAPE_eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL5_m2seq_librarySHAPE_eternafold.secstruct
+out=SARS_CoV_2-SL5_m2seq_librarySHAPE_eternafold
+
+# SARS CoV 2 SL5 sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL5_Sun_icSHAPE.secstruct
+out=SARS_CoV_2-SL5_Sun_icSHAPE
+
+# SARS CoV 2 SL5 library DMS
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL5_libraryDMS.secstruct
+out=SARS_CoV_2-SL5_libraryDMS
+
+##############################################################################
+# SARS CoV 1 SL5
+##############################################################################
+map=../Coronavirus_SL5/maps/SARS_CoV_1-7p05-cryosparc_P18_J109_map_sharp.mrc
+resolution=7.05
+fasta=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_1.fasta
+threshold=0.1
+end_node=15
+
+# SARS CoV 1 SL5 eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_1_eternafold.secstruct
+out=SARS_CoV_1_eternafold
+
+# SARS CoV 1 SL5 sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_1_Sun_icSHAPE.secstruct
+out=SARS_CoV_1_Sun_icSHAPE
+
+##############################################################################
+# MERS SL5 con 1
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/MERS.fasta
+
+# con 1
+map=../Coronavirus_SL5/maps/MERS_con1-6p89-cryosparc_P1_J318_map_sharp.mrc
+resolution=6.89
+threshold=0.24
+end_node=5
+
+# con 2
+map=../Coronavirus_SL5/maps/MERS_con2-6p37-cryosparc_P1_J320_map_sharp.mrc
+resolution=6.37
+threshold=0.23
+end_node=10
+
+# con 3
+map=../Coronavirus_SL5/maps/MERS_con3-6p44-cryosparc_P1_J323_map_sharp.mrc
+resolution=6.44
+threshold=0.25
+end_node=14
+
+# MERS sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/MERS_Sun_icSHAPE.secstruct
+out=MERS_Sun_icSHAPE
+
+# MERS DMS
+secstruct=../Coronavirus_SL5/models/modeling_inputs/MERS_DMS.secstruct
+out=MERS_DMS
+
+# MERS SHAPE
+secstruct=../Coronavirus_SL5/models/modeling_inputs/MERS_SHAPE.secstruct
+out=MERS_SHAPE
+
+##############################################################################
+# BtCoV HKU5 SL5
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/BtCoV_HKU5.fasta
+
+# con 1
+map=../Coronavirus_SL5/maps/BtCoV_HKU5_con1-5p93-cryosparc_P2_J362_map_sharp.mrc
+resolution=5.93
+threshold=0.18
+end_node=12
+
+# con 2
+map=../Coronavirus_SL5/maps/BtCoV_HKU5_con2-6p42-cryosparc_P2_J365_map_sharp.mrc
+resolution=6.42
+threshold=0.165
+end_node=8
+
+# con 3
+map=../Coronavirus_SL5/maps/BtCoV_HKU5_con3-8p00-cryosparc_P2_J368_map_sharp.mrc
+resolution=8.00
+threshold=0.16
+end_node=17
+
+# con 4
+map=../Coronavirus_SL5/maps/BtCoV_HKU5_con4-7p29-cryosparc_P2_J371_map_sharp.mrc
+resolution=7.29
+threshold=0.19
+end_node=10
+
+# BtoCoV sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/BtCoV_HKU5_Sun_icSHAPE_G317A.secstruct
+out=BtCoV_HKU5_Sun_icSHAPE_G317A
+
+# BtoCoV dms
+secstruct=../Coronavirus_SL5/models/modeling_inputs/BtCoV_HKU5_dms.secstruct
+out=BtCoV_HKU5_dms
+
+# BtoCoV shape
+secstruct=../Coronavirus_SL5/models/modeling_inputs/BtCoV_HKU5_shape.secstruct
+out=BtCoV_HKU5_shape
+
+# BtoCoV eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/BtCoV_HKU5_eternafold.secstruct
+out=BtCoV_HKU5_eternafold
+
+#######################################
+# HCoV NL63 SL5
+#######################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/HCoV_NL63.fasta
+
+# con 1
+map=../Coronavirus_SL5/maps/HCoV_NL63_con1-8p42-cryosparc_P3_J1258_map_sharp.mrc
+resolution=8.42
+threshold=0.3
+end_node=7
+
+# con 2
+map=../Coronavirus_SL5/maps/HCoV_NL63_con2-8p95-cryosparc_P3_J1250_map_sharp.mrc
+resolution=8.95
+threshold=0.3
+end_node=7
+
+# NL63 sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_NL63_Sun_icSHAPE.secstruct
+out=HCoV_NL63_Sun_icSHAPE
+
+# NL63 eterna
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_NL63_eternafold.secstruct
+out=HCoV_NL63_eternafold
+
+##############################################################################
+# HCoV-229E - SL5 
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/HCoV_229E.fasta
+map=../Coronavirus_SL5/maps/HCoV_229E-6p48-cryosparc_P3_J880_map_sharp.mrc
+resolution=6.48
+threshold=0.65
+end_node=7
+end_node=1
+
+# 229E eterna
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_229E_eternafold.secstruct
+out=HCoV_229E_eternafold
+
+# 229E react
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_229E_react.secstruct
+out=HCoV_229E_react
+
+# 229E manual
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_229E_manual.secstruct
+out=HCoV_229E_manual
+
+# 229E rnastructure
+secstruct=../Coronavirus_SL5/models/modeling_inputs/HCoV_229E_rnastructure.secstruct
+out=HCoV_229E_rnastructure
+
+##############################################################################
+# SARS2 SL56 - SL5
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_SL5only.fasta
+map=../Coronavirus_SL5/maps/SARS_CoV_2_SL56-7p83-flipped-cryosparc_P3_J1413_map_sharp.mrc
+resolution=7.83
+threshold=0.5
+end_node=8
+
+# SL56-5only eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_SL5only_eternafold.secstruct
+out=SARS_CoV_2-SL56_SL5only_eternafold
+
+# SL56-5only m2seq
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_SL5only_m2seq.secstruct
+out=SARS_CoV_2-SL56_SL5only_m2seq
+
+# SL56-5only sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_SL5only_Sun_icSHAPE.secstruct
+out=SARS_CoV_2-SL56_SL5only_Sun_icSHAPE
+
+##############################################################################
+# SARS2 SL56 5bext - SL5
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5bext_SL5only.fasta
+map=../Coronavirus_SL5/maps/SARS_CoV_2_SL56_5bext-7p40-flipped-cryosparc_P3_J1278_map_sharp.mrc
+resolution=7.40
+threshold=0.28
+end_node=17
+
+# SL56-5bext-5only eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5bext_SL5only_eternafold.secstruct
+out=SARS_CoV_2-SL56_5bext_SL5only_eternafold
+
+# SL56-5bext-5only m2seq
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5bext_SL5only_m2seq.secstruct
+out=SARS_CoV_2-SL56_5bext_SL5only_m2seq
+
+# SL56-5bext-5only sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5bext_SL5only_Sun_icSHAPE.secstruct
+out=SARS_CoV_2-SL56_5bext_SL5only_Sun_icSHAPE
+
+##############################################################################
+# SARS2 SL56 5cext - SL5 
+##############################################################################
+fasta=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5cext_SL5only.fasta
+map=../Coronavirus_SL5/maps/SARS_CoV_2_SL56_5cext-9p07-cryosparc_P3_J1247_map_sharp.mrc
+resolution=9.07
+threshold=1.05
+end_node=5
+
+# SL56-5cext-5only eternafold
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5cext_SL5only_eternafold.secstruct
+out=SARS_CoV_2-SL56_5cext_SL5only_eternafold
+
+# SL56-5cext-5only m2seq
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5cext_SL5only_m2seq.secstruct
+out=SARS_CoV_2-SL56_5cext_SL5only_m2seq
+
+# SL56-5cext-5only sun
+secstruct=../Coronavirus_SL5/models/modeling_inputs/SARS_CoV_2-SL56_5cext_SL5only_Sun_icSHAPE.secstruct
+out=SARS_CoV_2-SL56_5cext_SL5only_Sun_icSHAPE
+
+##############################################################################
+##############################################################################
+# Running auto-DRRAFTER
+##############################################################################
+##############################################################################
+
+nstruct_per_job=100
+ncycles=30000
+rosetta_dir=$ROSETTA/main/source/bin/
+rosetta_ext=.default.linuxgccrelease
+njobs=50
+ncycles=30000
+
+ml biology eman2
+
+# SETUP
+python $ROSETTA/main/source/src/apps/public/DRRAFTER/auto-DRRAFTER_setup.py \
+    -map_thr $threshold \
+    -full_dens_map $map \
+    -full_dens_map_reso $resolution \
+    -fasta $fasta \
+    -secstruct $secstruct \
+    -out_pref $out \
+    -rosetta_directory $rosetta_dir \
+    -nstruct_per_job $nstruct_per_job \
+    -cycles $ncycles \
+    -fit_only_one_helix \
+    -rosetta_extension $rosetta_ext \
+    -use_end_node $end_node \
+
+# SUBMIT
+round=R1
+python $ROSETTA/main/source/src/apps/public/DRRAFTER/submit_jobs.py \
+    -out_pref $out \
+    -curr_round $round \
+    -njobs $njobs \
+    -template_submission_script job_submission_template.sh \
+    -queue_command sbatch
+
+# ASSESS
+round=FINAL_R4
+python $ROSETTA/main/source/src/apps/public/DRRAFTER/auto-DRRAFTER_setup_next_round.py \
+    -out_pref $out \
+    -curr_round $round \
+    -rosetta_directory $rosetta_dir \
+    -rosetta_extension $rosetta_ext \
+    -nmodels 5000 \
+    -dens_thr $threshold \
+
+# FINALIZE
+round=FINAL_R4
+python $ROSETTA/main/source/src/apps/public/DRRAFTER/finalize_models.py \
+    -fasta $fasta \
+    -out_pref $out \
+    -final_round $round
+
+##############################################################################
+##############################################################################
+# Running ERRASER2
+##############################################################################
+##############################################################################
+
+erraser2.default.linuxgccrelease -s *pdb -edensity:mapfile $map -edensity::mapreso $resolution -score:weights stepwise/rna/rna_res_level_energy7beta.wts -set_weights elec_dens_fast 10.0 cart_bonded 5.0 linear_chainbreak 10.0 chainbreak 10.0 fa_rep 1.5 fa_intra_rep 0.5 rna_torsion 10 suiteness_bonus 5 rna_sugar_close 10 -rmsd_screen 3.0 -mute core.scoring.CartesianBondedEnergy core.scoring.electron_density.xray_scattering -rounds 3 -fasta $fasta -cryoem_scatterers
+
