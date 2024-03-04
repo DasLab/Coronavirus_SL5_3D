@@ -14,26 +14,26 @@ Visuals of the cryo-EM maps and models was done in chimeraX. The scripts to crea
 
 ##  Data Availability
 
-The raw sequencing reads can be found at NIH Sequence Read Archive with BioProject accession number PRJNA1039878, with each individual FASTQ found in with the [SRA](https://www.ncbi.nlm.nih.gov/sra) listed in this table. Additionally, the processed reactivity profiles can be found in the [RMDB](https://rmdb.stanford.edu/).
+The raw sequencing reads can be found at NIH Sequence Read Archive with BioProject accession number [PRJNA1039878](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1039878), with each individual FASTQ found in with the [SRA](https://www.ncbi.nlm.nih.gov/sra) listed in this table. Additionally, the processed reactivity profiles can be found in the [RMDB](https://rmdb.stanford.edu/).
 
 | Construct                | Experiment             | Chemical modifier | Reverse transcriptase | SRA         | RMDB                                                         |
 | ------------------------ | ---------------------- | ----------------- | --------------------- | ----------- | ------------------------------------------------------------ |
-| SARS-CoV-2 SL5 domain    | “scarless” M2-seq      | No modification   | TGIRT-III             | SRR26810680 | [COVSL5_NOM_0002](https://rmdb.stanford.edu/detail/COVSL5_NOM_0002) |
-| SARS-CoV-2 SL5 domain    | “scarless” M2-seq      | DMS modified      | TGIRT-III             | SRR26810681 | [COVSL5_DMS_0002](https://rmdb.stanford.edu/detail/COVSL5_DMS_0002) |
-| SARS-CoV-2 SL5-6 domains | “scarless” M2-seq      | No modification   | TGIRT-III             | SRR26810682 | [COVSL5_NOM_0001](https://rmdb.stanford.edu/detail/COVSL5_NOM_0001) |
-| SARS-CoV-2 SL5-6 domains | “scarless” M2-seq      | DMS modified      | TGIRT-III             | SRR26810683 | [COVSL5_DMS_0001](https://rmdb.stanford.edu/detail/COVSL5_DMS_0001) |
-| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | No modification   | MarathonRT            | SRR26827601 | [SL5CV2_NOM_0001](https://rmdb.stanford.edu/detail/SL5CV2_NOM_0001) |
-| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | DMS modified      | MarathonRT            | SRR26827601 | [SL5CV2_DMS_0001](https://rmdb.stanford.edu/detail/SL5CV2_DMS_0001) |
-| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | No modification   | SuperScript II        | SRR26827601 | [SL5CV2_NOM_0002](https://rmdb.stanford.edu/detail/SL5CV2_NOM_0002) |
-| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | SRR26827601 | [SL5CV2_2A3_0001](https://rmdb.stanford.edu/detail/SL5CV2_2A3_0001) |
-| MERS SL5 domain          | “large-library” M2-seq | No modification   | MarathonRT            | SRR26827601 | [SL5MER_NOM_0001](https://rmdb.stanford.edu/detail/SL5MER_NOM_0001) |
-| MERS SL5 domain          | “large-library” M2-seq | DMS modified      | MarathonRT            | SRR26827601 | [SL5MER_DMS_0001](https://rmdb.stanford.edu/detail/SL5MER_DMS_0001) |
-| MERS SL5 domain          | “large-library” M2-seq | No modification   | SuperScript II        | SRR26827601 | [SL5MER_NOM_0002](https://rmdb.stanford.edu/detail/SL5MER_NOM_0002) |
-| MERS SL5 domain          | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | SRR26827601 | [SL5MER_2A3_0001](https://rmdb.stanford.edu/detail/SL5MER_2A3_0001) |
-| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | No modification   | MarathonRT            | SRR26827601 | [SL5HKU_NOM_0001](https://rmdb.stanford.edu/detail/SL5HKU_NOM_0001) |
-| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | DMS modified      | MarathonRT            | SRR26827601 | [SL5HKU_DMS_0001](https://rmdb.stanford.edu/detail/SL5HKU_DMS_0001) |
-| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | No modification   | SuperScript II        | SRR26827601 | [SL5HKU_NOM_0002](https://rmdb.stanford.edu/detail/SL5HKU_NOM_0002) |
-| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | SRR26827601 | [SL5HKU_2A3_0001](https://rmdb.stanford.edu/detail/SL5HKU_2A3_0001) |
+| SARS-CoV-2 SL5 domain    | “scarless” M2-seq      | No modification   | TGIRT-III             | [SRR26810680](https://www.ncbi.nlm.nih.gov/sra/SRX22507801[accn]) | [COVSL5_NOM_0002](https://rmdb.stanford.edu/detail/COVSL5_NOM_0002) |
+| SARS-CoV-2 SL5 domain    | “scarless” M2-seq      | DMS modified      | TGIRT-III             | [SRR26810681](https://www.ncbi.nlm.nih.gov/sra/SRX22507800[accn]) | [COVSL5_DMS_0002](https://rmdb.stanford.edu/detail/COVSL5_DMS_0002) |
+| SARS-CoV-2 SL5-6 domains | “scarless” M2-seq      | No modification   | TGIRT-III             | [SRR26810682](https://www.ncbi.nlm.nih.gov/sra/SRX22507799[accn]) | [COVSL5_NOM_0001](https://rmdb.stanford.edu/detail/COVSL5_NOM_0001) |
+| SARS-CoV-2 SL5-6 domains | “scarless” M2-seq      | DMS modified      | TGIRT-III             | [SRR26810683](https://www.ncbi.nlm.nih.gov/sra/SRX22507798[accn]) | [COVSL5_DMS_0001](https://rmdb.stanford.edu/detail/COVSL5_DMS_0001) |
+| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | No modification   | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5CV2_NOM_0001](https://rmdb.stanford.edu/detail/SL5CV2_NOM_0001) |
+| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | DMS modified      | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5CV2_DMS_0001](https://rmdb.stanford.edu/detail/SL5CV2_DMS_0001) |
+| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | No modification   | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5CV2_NOM_0002](https://rmdb.stanford.edu/detail/SL5CV2_NOM_0002) |
+| SARS-CoV-2 SL5 domain    | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5CV2_2A3_0001](https://rmdb.stanford.edu/detail/SL5CV2_2A3_0001) |
+| MERS SL5 domain          | “large-library” M2-seq | No modification   | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5MER_NOM_0001](https://rmdb.stanford.edu/detail/SL5MER_NOM_0001) |
+| MERS SL5 domain          | “large-library” M2-seq | DMS modified      | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5MER_DMS_0001](https://rmdb.stanford.edu/detail/SL5MER_DMS_0001) |
+| MERS SL5 domain          | “large-library” M2-seq | No modification   | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5MER_NOM_0002](https://rmdb.stanford.edu/detail/SL5MER_NOM_0002) |
+| MERS SL5 domain          | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5MER_2A3_0001](https://rmdb.stanford.edu/detail/SL5MER_2A3_0001) |
+| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | No modification   | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5HKU_NOM_0001](https://rmdb.stanford.edu/detail/SL5HKU_NOM_0001) |
+| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | DMS modified      | MarathonRT            | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5HKU_DMS_0001](https://rmdb.stanford.edu/detail/SL5HKU_DMS_0001) |
+| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | No modification   | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5HKU_NOM_0002](https://rmdb.stanford.edu/detail/SL5HKU_NOM_0002) |
+| BtCoV-HKU5 SL5 domain    | “large-library” M2-seq | 2A3 modifed       | SuperScript II        | [SRR26827601](https://www.ncbi.nlm.nih.gov/sra/SRX22524118[accn]) | [SL5HKU_2A3_0001](https://rmdb.stanford.edu/detail/SL5HKU_2A3_0001) |
 
 We are in the process of uploading the cryo-EM movies and particle stacks to [EMPIAR](https://www.ebi.ac.uk/empiar/). The cryo-EM maps can be found in [EMDB](https://www.ebi.ac.uk/emdb/) with the accession codes listed in the table. The models can be found in the [PDB](https://www.rcsb.org/) with the accession codes listed in the table, or in this repository.
 
