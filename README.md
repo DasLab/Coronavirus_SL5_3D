@@ -1,6 +1,8 @@
 # Investigations of the coronavirus SL5 RNA domain
 
-This repository accompanies the publication [].
+This repository accompanies the publication 
+
+```Kretsch, Rachael C., Lily Xu, Ivan N. Zheludev, Xueting Zhou, Rui Huang, Grace Nye, Shanshan Li, Kaiming Zhang, Wah Chiu, and Rhiju Das. 2024. “Tertiary Folds of the SL5 RNA from the 5′ Proximal Region of SARS-CoV-2 and Related Coronaviruses.” Proceedings of the National Academy of Sciences 121 (10): e2320493121.```
 
 Analysis scripts, including M2-seq analysis, modeling, angle analysis, and model validation can be found in [analysis/](analysis).
 
