@@ -41,7 +41,7 @@ We are in the process of uploading the cryo-EM movies and particle stacks to [EM
 
 | Construct                                                    | EMPIAR | EMDB                                              | PDB                                         |
 | ------------------------------------------------------------ | ------ | ------------------------------------------------- | ------------------------------------------- |
-| SARS-CoV-2 SL5 domain                                        | 11827    | [EMD-42818](https://www.ebi.ac.uk/emdb/EMD-42818) | [8UYS](https://www.rcsb.org/structure/8uys) |
+| SARS-CoV-2 SL5 domain                                        | [11827](https://www.ebi.ac.uk/empiar/EMPIAR-11827/)    | [EMD-42818](https://www.ebi.ac.uk/emdb/EMD-42818) | [8UYS](https://www.rcsb.org/structure/8uys) |
 | SARS-CoV-2 SL5-6 domains                                     | [11813](https://www.ebi.ac.uk/empiar/EMPIAR-11813/)    | [EMD-42821](https://www.ebi.ac.uk/emdb/EMD-42821) | N/A                                         |
 | SARS-CoV-2 SL5-6 domains, SL5b extended                      | [11834](https://www.ebi.ac.uk/empiar/EMPIAR-11834/)    | [EMD-42820](https://www.ebi.ac.uk/emdb/EMD-42820) | N/A                                         |
 | SARS-CoV-2 SL5-6 domains, SL5c extended                      | [11814](https://www.ebi.ac.uk/empiar/EMPIAR-11814/)    | [EMD-42819](https://www.ebi.ac.uk/emdb/EMD-42819) | N/A                                         |
@@ -54,7 +54,7 @@ We are in the process of uploading the cryo-EM movies and particle stacks to [EM
 | BtCoV-HKU5 SL5 domain conformation 2                         | [11836](https://www.ebi.ac.uk/empiar/EMPIAR-11836/)    | [EMD-42805](https://www.ebi.ac.uk/emdb/EMD-42805) | [8UYG](https://www.rcsb.org/structure/8uyg) |
 | BtCoV-HKU5 SL5 domain conformation 3                         | [11836](https://www.ebi.ac.uk/empiar/EMPIAR-11836/)    | [EMD-42802](https://www.ebi.ac.uk/emdb/EMD-42802) | N/A                                         |
 | BtCoV-HKU5 SL5 domain conformation 4                         | [11836](https://www.ebi.ac.uk/empiar/EMPIAR-11836/)    | [EMD-42808](https://www.ebi.ac.uk/emdb/EMD-42808) | [8UYJ](https://www.rcsb.org/structure/8uyj) |
-| HCoV-229E SL5 domain                                         | 11835    | [EMD-42803](https://www.ebi.ac.uk/emdb/EMD-42803) | N/A                                         |
+| HCoV-229E SL5 domain                                         | [11835](https://www.ebi.ac.uk/empiar/EMPIAR-11835/)    | [EMD-42803](https://www.ebi.ac.uk/emdb/EMD-42803) | N/A                                         |
 | HCoV-NL63 SL5 domain conformation 1                          | [11848](https://www.ebi.ac.uk/empiar/EMPIAR-11848/)    | [EMD-42813](https://www.ebi.ac.uk/emdb/EMD-42813) | N/A                                         |
 | HCoV-NL63 SL5 domain conformation 2                          | [11848](https://www.ebi.ac.uk/empiar/EMPIAR-11848/)    | [EMD-42814](https://www.ebi.ac.uk/emdb/EMD-42814) | N/A                                         |
 
